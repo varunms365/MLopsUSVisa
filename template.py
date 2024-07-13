@@ -2,8 +2,15 @@ import os
 from pathlib import Path
 
 
-project_name ="US_Visa"
+#project_name ="US_Visa"
+#project_name = "Src"
+while True:
+    project_name = input("Enter your project name: ")
+    if project_name !="":
+        break
 
+# src/__init__.py
+# src/compontes/__init__.py
 list_of_files = [
     f"{project_name}/__init__.py",
     f"{project_name}/components/__init__.py",

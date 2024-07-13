@@ -23,3 +23,10 @@ conda create -n visa python=3.8 -y
 conda activate visa
 pip install -r requirements.txt
 ```
+
+## workflow :
+
+1. Constants 
+2. entity
+3. components
+4. pipeline
